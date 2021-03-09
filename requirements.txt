@@ -342,7 +342,7 @@ python-jsonrpc-server==0.3.4
 python-language-server==0.32.0
 python-Levenshtein==0.12.0
 python-snappy==0.5.4
-pythonnet==2.4.1.dev0
+pythonnet==2.5.2
 PythonQwt==0.5.6.dev0
 pytoml==0.1.21
 pytz==2020.1
