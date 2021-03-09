@@ -208,7 +208,6 @@ metakernel==0.24.4
 mistune==0.8.4
 mizani==0.6.0
 mlxtend==0.17.2
-model-selection==0.0.1
 monotonic==1.5
 more-itertools==8.3.0
 moviepy==1.0.3
