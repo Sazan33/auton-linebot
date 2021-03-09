@@ -343,7 +343,7 @@ python-language-server==0.32.0
 python-Levenshtein==0.12.0
 python-snappy==0.5.4
 pythonnet==2.5.2
-PythonQwt==0.5.6.dev0
+PythonQwt==0.8.3
 pytoml==0.1.21
 pytz==2020.1
 pyviz-comms==0.7.4
