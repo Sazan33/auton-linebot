@@ -309,7 +309,6 @@ pydeck==0.2.1
 pydot==1.4.1
 pyepsg==0.4.0
 pyflakes==2.2.0
-pyflux==0.4.17
 pygame==1.9.6
 pygbm==0.1.0
 Pygments==2.6.1
