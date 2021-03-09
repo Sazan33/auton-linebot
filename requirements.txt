@@ -217,6 +217,7 @@ mpld3==0.3
 mpldatacursor==0.7.1
 mpmath==1.1.0
 msgpack==1.0.0
+multidict==5.1.0
 multipledispatch==0.6.0
 multiprocess==0.70.9
 munch==2.5.0
@@ -358,7 +359,7 @@ QtAwesome==0.7.2
 qtconsole==4.7.4
 QtPy==1.9.0
 quantecon==0.4.7
-Quart==0.12.0
+Quart==0.6.15
 rasterio==1.1.4
 readme-renderer==26.0
 redis==3.5.2
