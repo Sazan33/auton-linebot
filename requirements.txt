@@ -115,7 +115,7 @@ fsspec==0.7.3
 future==0.18.2
 fuzzywuzzy==0.18.0
 gast==0.3.3
-GDAL==3.0.4
+gdal==3.0.4
 geographiclib==1.50
 geopandas==0.7.0
 geopy==1.22.0
