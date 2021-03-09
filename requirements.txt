@@ -150,7 +150,6 @@ imageio==2.8.0
 imageio-ffmpeg==0.4.2
 imagesize==1.2.0
 imbalanced-learn==0.6.2
-importlib==1.0.4
 importlib-metadata==3.0.0
 intake==0.5.5
 intervaltree==3.0.2
