@@ -10,6 +10,7 @@ altair-data-server==0.4.1
 altair-transform==0.2.0
 altair-widgets==0.2.2
 altgraph==0.17
+amply==0.1.4
 aniso8601==8.0.0
 ansiwrap==0.8.4
 appdirs==1.4.4
@@ -291,7 +292,7 @@ psutil==5.7.0
 ptpython==3.0.2
 ptvsd==4.3.2
 ptyprocess==0.6.0
-PuLP==1.6.11
+PuLP==2.4
 py==1.8.1
 pyaml==20.4.0
 pyarrow==0.17.1
