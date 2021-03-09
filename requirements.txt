@@ -236,7 +236,7 @@ numba==0.52.0
 numcodecs==0.6.4
 numdifftools==0.9.39
 numexpr==2.7.1
-numpy==1.20.1
+numpy==1.19.5
 numpydoc==0.9.2
 oauthlib==3.1.0
 oct2py==5.0.4
