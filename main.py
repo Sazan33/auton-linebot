@@ -46,7 +46,17 @@ def handle_message(event):
     if event.reply_token == "00000000000000000000000000000000":
         return
     
-    response = wikipedia.page(event.message.text).summary
+    try:
+        keyword = wikipedia.search(event.message.text)[0]
+        response = wikipedia.page(keyword).summary
+        
+    except wikipedia.exceptions.DisambiguationError as e:
+        response = "次の検索候補から、再度送信して下さい。\n"
+        for option in e.options:
+            response += option + "\n"
+        
+    except:
+        response = "wikipediaのページにヒットしませんでした...。\nキーワードを変えて、もう一度お試し下さい。"
 
     line_bot_api.reply_message(
         event.reply_token,
