@@ -42,10 +42,12 @@ def callback():
 def handle_message(event):
     if event.reply_token == "00000000000000000000000000000000":
         return
+    
+    response = "メッセージを受け取りました！あなたが送ったメッセージは...\n" + event.message.text
 
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=event.message.text))
+        TextSendMessage(text=response))
  
  
 if __name__ == "__main__":
