@@ -10,6 +10,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 import os
+import wikipedia
  
 app = Flask(__name__)
  
@@ -19,6 +20,8 @@ YOUR_CHANNEL_SECRET = os.environ["YOUR_CHANNEL_SECRET"]
  
 line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(YOUR_CHANNEL_SECRET)
+
+wikipedia.set_lang("ja")
  
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -43,7 +46,7 @@ def handle_message(event):
     if event.reply_token == "00000000000000000000000000000000":
         return
     
-    response = "メッセージを受け取りました！あなたが送ったメッセージは...\n" + event.message.text
+    response = wikipedia.page(event.message.text)
 
     line_bot_api.reply_message(
         event.reply_token,
